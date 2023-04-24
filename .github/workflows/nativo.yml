@@ -24,4 +24,4 @@ jobs:
     - name: Compilando no JAVA
       run: | 
         cd src
-        javac -cp Main.java
+        javac -cp . Main.java
